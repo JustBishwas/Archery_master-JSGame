@@ -1,0 +1,25 @@
+*{
+	color: gray;
+}
+.heading-section{
+	margin-top: 20%;
+	font-size:60px;
+	color: greenyellow;
+	text-shadow:2px 3px #aaa;
+}
+table{
+	text-align: center;
+}
+table th {
+	color: limegreen;
+	font-size: 25px;
+	text-shadow:1px 1px #aaa;
+	transition: transform .2s; 
+}
+table tr{
+	font-size: 20px;
+	transition: transform 1s; 
+}
+table tr:hover{
+	  transform: scale(1.1);
+}

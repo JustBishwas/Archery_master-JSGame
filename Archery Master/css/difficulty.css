@@ -1,0 +1,121 @@
+.greetuser{
+    text-align: center;
+}
+#levels{
+    margin-top:8%;
+}
+#levels .easy{
+    cursor: pointer;
+    padding: 20px;
+    text-decoration: none !important;
+    outline: none !important;
+    padding: 10px;
+    border-radius: 15px;
+    display: block;
+    width: 300px;
+    text-align: center;
+    font-size: 24px;
+    display: inline-block; 
+    font-family: 'Carter One', sans-serif;
+    border-style: dashed;
+     width: 400px;
+     font-size: 20px;
+    line-height: 1.5em;
+    letter-spacing: .1em;
+    text-shadow: 2px 2px 1px #348628, -2px 2px 1px #348628, 2px -2px 1px #348628, -2px -2px 1px #348628, 0px 2px 1px #348628, 0px -2px 1px #348628, 0px 4px 1px #1d4c16, 2px 4px 1px #1d4c16, -2px 4px 1px #1d4c16;
+    border: none;
+    margin: 15px 15px 50px;
+    background: repeating-linear-gradient( 45deg, #54d440, #54d440 5px, #52cc3f 5px, #52cc3f 10px);
+    border-bottom: 3px solid rgba(40, 117, 29, 0.5);
+    border-top: 3px solid rgba(255,255,255,.3);
+    color: #fff !important;
+    border-radius: 8px;
+    padding:8px 15px 10px;
+    box-shadow:   0 6px 0 #348628, 0 8px 1px 1px rgba(0,0,0,.3), 0 10px 0 5px #2a6d20, 0 12px 0 5px #39822e, 0 15px 0 5px #1d4c16, 0 15px 1px 6px rgba(0,0,0,.3);
+}
+
+#levels .easy:hover {
+    top:2px;
+    box-shadow: 0 4px 0 #348628, 0 6px 1px 1px rgba(0,0,0,.3), 0 8px 0 5px #2a6d20, 0 10px 0 5px #39822e, 0 13px 0 5px #1d4c16, 0 13px 1px 6px rgba(0,0,0,.3);
+    
+}
+
+#levels .medium{
+    cursor: pointer;
+    padding: 20px;
+    text-decoration: none !important;
+    outline: none !important;
+    padding: 10px;
+    border-radius: 15px;
+    display: block;
+    width: 300px;
+    text-align: center;
+    font-size: 24px;
+    display: inline-block; 
+    font-family: 'Carter One', sans-serif;
+    border-style: dashed;
+     width: 400px;
+     font-size: 20px;
+    line-height: 1.5em;
+    letter-spacing: .1em;
+    text-shadow: 2px 2px 1px #0066a2, -2px 2px 1px #0066a2, 2px -2px 1px #0066a2, -2px -2px 1px #0066a2, 0px 2px 1px #0066a2, 0px -2px 1px #0066a2, 0px 4px 1px #004a87, 2px 4px 1px #004a87, -2px 4px 1px  #004a87;
+    border: none;
+    margin: 15px 15px 50px;
+    background: repeating-linear-gradient( 45deg, #3ebbf7, #3ebbf7 5px, #45b1f4 5px, #45b1f4 10px);
+    border-bottom: 3px solid rgba(16, 91, 146, 0.5);
+    border-top: 3px solid rgba(255,255,255,.3);
+    color: #fff !important;
+    border-radius: 8px;
+    padding:8px 15px 10px;
+    box-shadow: 0 6px 0 #266b91, 0 8px 1px 1px rgba(0,0,0,.3), 0 10px 0 5px #12517d, 0 12px 0 5px #1a6b9a, 0 15px 0 5px #0c405e, 0 15px 1px 6px rgba(0,0,0,.3);
+}
+
+#levels .medium:hover {
+    top:2px;
+    box-shadow: 0 4px 0 #266b91, 0 6px 1px 1px rgba(0,0,0,.3), 0 8px 0 5px #12517d, 0 10px 0 5px #1a6b9a, 0 13px 0 5px #0c405e, 0 13px 1px 6px rgba(0,0,0,.3);
+    
+}
+
+#levels .hard{
+    cursor: pointer;
+    padding: 20px;
+    text-decoration: none !important;
+    outline: none !important;
+    padding: 10px;
+    border-radius: 15px;
+    display: block;
+    width: 300px;
+    text-align: center;
+    font-size: 24px;
+    display: inline-block; 
+    font-family: 'Carter One', sans-serif;
+    border-style: dashed;
+     width: 400px;
+     font-size: 20px;
+    line-height: 1.5em;
+    letter-spacing: .1em;
+    text-shadow: 2px 2px 1px #d72d21, -2px 2px 1px #d72d21, 2px -2px 1px #d72d21, -2px -2px 1px #d72d21, 0px 2px 1px #d72d21, 0px -2px 1px #d72d21, 0px 4px 1px #930704, 2px 4px 1px #930704, -2px 4px 1px  #930704;
+    border: none;
+    margin: 15px 15px 50px;
+    background: repeating-linear-gradient( 45deg, #ff4f4c, #ff4f4c 5px, #ff4643 5px, #ff4643 10px);
+    border-bottom: 3px solid rgba(160, 25, 23, 0.5);
+    border-top: 3px solid rgba(255,255,255,.3);
+    color: #fff !important;
+    border-radius: 8px;
+    padding:8px 15px 10px;
+    box-shadow: 0 6px 0 #ae2725, 0 8px 1px 1px rgba(0,0,0,.3), 0 10px 0 5px #831614, 0 12px 0 5px #a33634, 0 15px 0 5px #631716, 0 15px 1px 6px rgba(0,0,0,.3);
+}
+#levels .hard:hover {
+    top:2px;
+    box-shadow:    0 4px 0 #ae2725, 0 6px 1px 1px rgba(0,0,0,.3), 0 8px 0 5px #831614, 0 10px 0 5px #a33634, 0 13px 0 5px #631716, 0 13px 1px 6px rgba(0,0,0,.3);
+}
+
+.greetuser{
+        text-align: center;
+    }
+#note h1{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
